@@ -6,3 +6,45 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Shared styles */
+.display-flex {
+  display: flex;
+}
+
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.text-grey {
+  color: rgb(83, 83, 83);
+}
+
+.text-light-grey {
+  color: rgb(194, 194, 194);
+}
+
+
+/* Header styles */
+
+/* navbar styles */
+
+.navbar {
+  justify-content: space-between;
+}
+
+.nav-items {
+  list-style: none;
+  margin-right: 2.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+.navbar, .banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
